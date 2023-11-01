@@ -54,15 +54,9 @@ get(playerRef)
     playerNameDisplay.textContent = playerName;
     console.log(playerNameDisplay.textContent);
     console.log(playerData.email);
-    console.log('myPlayerNumber:', playerData.myPlayerNumber);  
+    console.log('myPlayerNumber:', playerData.PlayerNumber);  
     console.log('Player.uid:', playerId); 
   });
-      
-
-
-  
-
-
 
 document.addEventListener("DOMContentLoaded", function () {
     const charactersContainer = document.querySelector(".characters");
